@@ -78,13 +78,13 @@ const Home = () => {
     <div className="min-h-screen bg-cream">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-rose-100">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="container mx-auto px-4 py-4 flex items-center justify-between gap-2">
           <h1 className="text-2xl font-bold text-chocolate">
             {/* Pedaço de Pecado*/}
             <img
               src="/Pedaço de Pecado.svg"
               alt="Logo"
-              className="w-52 text-red-500"
+              className="w-52"
             />
           </h1>
           <Button
