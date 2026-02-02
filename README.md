@@ -1,71 +1,67 @@
-# Getting Started with Create React App
+# 🍰 Pedaço de Pecado - Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é a landing page oficial da Pedaço de Pecado, uma doceria e cafeteria artesanal localizada em Presidente Prudente - SP. O projeto foi desenvolvido com foco em conversão via WhatsApp, experiência do usuário (UX) e design responsivo.
 
-## Available Scripts
+## 🚀 Tecnologias Utilizadas
 
-In the project directory, you can run:
+ - React.js: Biblioteca principal para a interface.
+ - Tailwind CSS: Framework utilitário para estilização rápida e responsiva.
+ - Lucide React: Biblioteca de ícones leves e elegantes.
+ - Shadcn/UI: Componentes de interface (Button, Card) para consistência visual.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
+- Header Fixo: Navegação sempre visível com acesso rápido ao botão de pedidos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Galeria de Produtos: Exibição em grid dos doces e cafés com efeitos de zoom no hover.
 
-### `npm test`
+- Integração com WhatsApp: Botões estratégicos que abrem conversa direta com uma mensagem personalizada.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Depoimentos: Prova social com avaliações de clientes.
 
-### `npm run build`
+- Localização: Seção dedicada com informações de endereço, horários e mapa integrado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Design Responsivo: Totalmente adaptado para dispositivos móveis, tablets e desktops.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Estrutura de Pastas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```Plaintext
+src/
+├── components/
+│   └── ui/            # Componentes base (Botões, Cards)
+├── pages/
+│   └── Home.jsx       # Componente principal da Landing Page
+├── public/            # Imagens e logotipos (SVG/JPG)
+└── index.html             # Ponto de entrada da aplicação
+```
 
-### `npm run eject`
+## 🛠️ Como Executar o Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone o repositório:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```Bash
+git clone https://github.com/seu-usuario/pedaco-de-pecado.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Instale as dependências:
+```Bash
+npm install
+# ou
+yarn install
+```
+Certifique-se de ter as imagens na pasta /public: O código referencia imagens como /1.jpg, /fora.jpg, etc. Certifique-se de que esses arquivos existam no diretório público.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Inicie o servidor de desenvolvimento:
 
-## Learn More
+```Bash
+npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🎨 Personalização de Cores
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O projeto utiliza uma paleta personalizada no Tailwind. Certifique-se de que seu arquivo tailwind.config.js contenha as definições para:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# peda-o-de-pecado
+- cream: Fundo suave.
+- chocolate: Textos e elementos principais.
+- rose-dusty: Destaques e botões de ação.
+- gold: Estrelas de avaliação e detalhes do footer.
